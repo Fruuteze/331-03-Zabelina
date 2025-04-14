@@ -1,0 +1,12 @@
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.Properties.Resources.resources
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Debug\StudentManager.exe.config
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Debug\StudentManager.exe
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Debug\StudentManager.pdb
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentM.8DAA3114.Up2Date
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.exe
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Debug\StudentManager.pdb

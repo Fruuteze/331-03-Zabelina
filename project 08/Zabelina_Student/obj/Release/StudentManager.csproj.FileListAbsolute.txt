@@ -1,0 +1,13 @@
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Release\StudentManager.exe.config
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Release\StudentManager.exe
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Release\StudentManager.pdb
+C:\Users\Student\source\repos\StudentManager\StudentManager\bin\Release\Newtonsoft.Json.xml
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.Properties.Resources.resources
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentM.8DAA3114.Up2Date
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.exe
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.pdb
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.csproj.Fody.CopyLocal.cache
+C:\Users\Student\source\repos\StudentManager\StudentManager\obj\Release\StudentManager.csproj.Fody.RuntimeCopyLocal.cache
