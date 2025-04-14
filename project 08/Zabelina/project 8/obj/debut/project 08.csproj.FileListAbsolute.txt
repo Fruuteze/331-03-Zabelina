@@ -1,4 +1,0 @@
-C:\Users\Infinix\RiderProjects\project 08\project 08\obj\Debug\net9.0\project 08.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Infinix\RiderProjects\project 08\project 08\obj\Debug\net9.0\project 08.AssemblyInfoInputs.cache
-C:\Users\Infinix\RiderProjects\project 08\project 08\obj\Debug\net9.0\project 08.AssemblyInfo.cs
-C:\Users\Infinix\RiderProjects\project 08\project 08\obj\Debug\net9.0\project 08.csproj.CoreCompileInputs.cache
