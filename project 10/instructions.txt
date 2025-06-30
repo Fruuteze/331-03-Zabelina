@@ -1,0 +1,4 @@
+1) Установка php (приложена папка, нужно добавить переменные среды)
+2) установить https://getcomposer.org/Composer-Setup.exe
+3) composer require phpoffice/phpspreadsheet
+4) в консоль ввести команду "php -S localhost:8000"

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Партнёры компании "Мастер пол"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+    <header style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;">
+        <img src="images/logo.png" alt="Логотип" style="height: 40px;">
+        <h1>Партнёры</h1>
+    </header>
+    
+    <section class="import-section" style="margin-bottom: 30px;">
+        <h2>Импорт данных из Excel</h2>
+        <form action="db.php?action=import" method="post" enctype="multipart/form-data" class="import-form" style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <input type="file" name="file" accept=".xlsx, .xls" required style="padding: 5px;">
+            <button type="submit" class="btn primary" style="padding: 8px 16px; cursor: pointer;">Загрузить файл</button>
+        </form>
+        <p style="font-size: 0.9em; color: #555; margin-top: 8px;">
+          Пожалуйста, загрузите Excel-файл с данными партнёров или другой поддерживаемой информацией.
+        </p>
+    </section>
+    
+    <main>
+        <div class="table-container">
+            <table id="partnersTable">
+                <thead>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Тип</th>
+                        <th>Рейтинг</th>
+                        <th>ИНН</th>
+                        <th>Директор</th>
+                        <th>Телефон</th>
+                        <th>Email</th>
+                        <th>Адрес</th>
+                        <th>Общие траты</th>
+                        <th>Общая скидка</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody id="partnersBody"></tbody>
+            </table>
+        </div>
+        <button id="addPartnerBtn" class="btn primary" style="margin-top: 20px;">Добавить партнёра</button>
+        <button id="historySales" class="btn primary" style="margin-top: 10px;">История покупок</button>
+    </main>
+</div>
+
+
+
+<script src="/js/app.js"></script>
+<script src="/js/validation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вся история покупок</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .summary-card {
+            background-color: #F4E8D3;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .summary-item {
+            margin: 5px 10px;
+        }
+        .summary-value {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+        }
+        .partner-name {
+            font-weight: bold;
+            color: #333;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table th, table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .btn {
+            padding: 8px 14px;
+            margin-top: auto;
+            cursor: pointer;
+        }
+        .btn.primary {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        .btn.secondary {
+            background-color: #ddd;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Вся история покупок</h1>
+        </header>
+
+        <div class="summary-card">
+            <div class="summary-item">
+                <span>Всего покупок: </span>
+                <span id="totalSales" class="summary-value">0</span>
+            </div>
+            <div class="summary-item">
+                <span>Общая сумма: </span>
+                <span id="totalAmount" class="summary-value">0 ₽</span>
+            </div>
+            <div class="summary-item">
+                <span>Средний чек: </span>
+                <span id="averageAmount" class="summary-value">0 ₽</span>
+            </div>
+            <div class="summary-item">
+                <span>Первая покупка: </span>
+                <span id="firstSale" class="summary-value">-</span>
+            </div>
+            <div class="summary-item">
+                <span>Последняя покупка: </span>
+                <span id="lastSale" class="summary-value">-</span>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="partnerFilter">Партнёр</label>
+                <select id="partnerFilter">
+                    <option value="">Все партнёры</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="dateFrom">С даты</label>
+                <input type="date" id="dateFrom">
+            </div>
+            <div class="filter-group">
+                <label for="dateTo">По дату</label>
+                <input type="date" id="dateTo">
+            </div>
+            <div class="filter-group">
+                <label for="minAmount">Мин. сумма</label>
+                <input type="number" id="minAmount" placeholder="0">
+            </div>
+            <div class="filter-group">
+                <label for="maxAmount">Макс. сумма</label>
+                <input type="number" id="maxAmount" placeholder="100000">
+            </div>
+            <div class="filter-group" style="align-self: flex-end;">
+                <button id="applyFilters" class="btn primary">Применить</button>
+            </div>
+            <div class="filter-group" style="align-self: flex-end;">
+                <button id="resetFilters" class="btn secondary">Сбросить</button>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="salesTable">
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Партнёр</th>
+                        <th>Товар</th>
+                        <th>Артикул</th>
+                        <th>Мин. цена</th>
+                        <th>Сумма</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div id="pagination" class="pagination"></div>
+    </div>
+
+    <script src="js/sales-history.js"></script>
+</body>
+</html>
